@@ -7,7 +7,8 @@ public class ExceptionHandling {
 	public static void main(String[] args) {
 		
 	}
-
+	
+	//Part 1
 	public void handleMultipleExceptions() {
         try {
 // Code that might throw multiple exceptions
@@ -22,6 +23,9 @@ public class ExceptionHandling {
             System.out.println("General exception occurred: " + e.getMessage());
         }
     }
+	
+	//Part2
+	
     // Re-throwing Exceptions
     public void rethrowException(int x) throws IOException {
         if (x < 0) {
@@ -34,6 +38,8 @@ public class ExceptionHandling {
             throw new RuntimeException("Error occurred", e); // Chain the exception
         }
     }
+    
+    //Part3
     // Resource Management
     public void manageResources() {
         try (FileReader reader = new FileReader("data.txt");
@@ -46,6 +52,8 @@ public class ExceptionHandling {
             System.out.println("Error reading file: " + e.getMessage());
         }
     }
+    
+    //Part4
     // Chaining Exceptions
     public void chainExceptions() {
         try {
