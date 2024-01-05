@@ -1,4 +1,5 @@
-**Must Read**
+**Must Read**/
+
 Update on Team 16's GitHub Repository and Clarification Regarding Contributor Issue
 
 Dear Professor Galyna Tabunshchyk,
